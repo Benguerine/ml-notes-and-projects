@@ -1,0 +1,68 @@
+# Model outputs and training artifacts
+model_outputs/
+evaluation_results/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# TensorBoard logs
+tensorboard_logs/
+logs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Data directories (large datasets)
+data/
+dataset/
+*.zip
+*.tar.gz
+
+# Model checkpoints and weights
+checkpoints/
+weights/
+saved_models/
+
+# Plot and visualization outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+plots/
+visualizations/
+
+# Training logs
+*.csv
+*.log
+
+# Temporary Python scripts
+temp_*.py
